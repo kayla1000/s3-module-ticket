@@ -19,18 +19,8 @@ plugins: [
   '@semantic-release/github']
  }
 
-3. still in the project root directory in your local environment, create the file named "package.json" and paste this code:
 
- {
-  "devDependencies": {
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.0.6",
-    "semantic-release": "^22.0.0"
-  }
-}
-
-4. Also, create a file named package-lock.json. It has very long code, check example
-5. Add your project to the repo:
+3. Add your project to the repo:
 
  git add .
  git status
